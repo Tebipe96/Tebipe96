@@ -1,0 +1,34 @@
+# operadores
+suma = print(6 + 3)
+resta = print(6 - 3)
+multiplicacion = print(6 * 3)
+division = print(6 / 3)
+exponente = print(6 ** 3)
+diferncia = print (6 % 3) 
+
+print(suma)
+print(resta)
+print(multiplicacion)
+print(division)
+print(exponente)
+
+# OPERADORES COMPARATIVOS
+
+print(6 > 3)
+print(6 < 3)
+print(6 == 3)
+print(6 != 3)
+print(6 >= 3)
+
+
+print("hola" > "mundo") #como la letra h es mayor que la letra m el resultado es falso
+ # como la letra h es menos que la letra m el resultado es verdadero
+print(len("hola") > len("mundo"))
+
+#OPERADORES LOGICOS
+print(6 > 3 and 6 > 10) # como la dos condiciones no se cumple el resultado es falso
+print(6 > 3 and 6 < 10) # como las dos conciciones se cumple el resultado es verdadero
+print(6 > 3 or 6 > 10) # como una de las condiciones se cumple el resultado es verdadero.
+print(not (6 > 3)) # como la condiciones se cumple el resultado es falso, el operadore not invierte el resultado, por lo tanto el resultado es falso.
+
+print("hola" < "mundo") # m es mayor que h, por lo tanto el resultado es verdadero
